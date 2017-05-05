@@ -72,7 +72,7 @@ body{
 	text-decoration:none;
 }
 #menu a:active {
-color:#1fcdff;
+color:#F9C80E;
 }
 #menu select {
 display: none;
@@ -80,7 +80,7 @@ display: none;
 
 #menu .active a {
 border:0;
-color:#1fcdff;
+color:#F9C80E;
 }
 #menu .active a:focus{
 	outline: none;
@@ -128,7 +128,7 @@ border: none;
 #menu li a:hover{
 	border:none;
 	outline:none;
-	color:#1fcdff;
+	color:#F9C80E;
 }
 .gallery {
 	height:500px;
@@ -374,15 +374,7 @@ border: none;
 }
 
 
- .Des .fa-heart{
-	//margin-left: -14px;
-	background: url(../images/cir.png) no-repeat;
-	padding: 26px;
-	font-size: 24px;
-	color: #fff;
-	font-family: FontAwesome;
-	text-align: center;
-}
+
 .Fresh{
 	margin-bottom: 145px;
 	color: #fff;
@@ -404,14 +396,75 @@ border: none;
 	margin-top: 12px;
 	line-height: 23px;
 }
-.fa-cog {
-	margin-left: 2px;
+
+
+.subtitle{
+	margin-top: 40px;
+	min-height:250px;
+}
+.subtitle h3{
+	margin-top: 159px;
+	font-size: 36px;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+.Skill{
+	margin-bottom: 80px;
+	color: #fff;
+	text-align: center;
+	
+}
+.Skill h4{
+	//margin-left: -15px;
+	margin-top: 17px;
+	font-family: 'Roboto', 'sans-serif';
+	font-size:20px;
+	font-weight:300;
+}
+.Skill p{
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 13px;
+	font-weight: 300;
+	margin-top: 12px;
+	line-height: 23px;
+}
+
+.fa-heart{
+	//margin-left: -14px;
 	background: url(../images/cir.png) no-repeat;
 	padding: 26px;
 	font-size: 24px;
 	color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
+	margin-top: 20px;
+}
+.fa-cog {
+	margin-left: 3px;
+	background: url(../images/cir.png) no-repeat;
+	padding: 26px;
+	font-size: 24px;
+	color: #fff;
+	font-family: FontAwesome;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fa-tablet{
+	//margin-left: 20px;
+	width:73px;
+	background: url(../images/cir.png) no-repeat;
+	padding: 26px;
+	font-size: 24px;
+	color: #fff;
+	font-family: FontAwesome;
+	text-align: center;
+	margin-top: 20px;
 }
 .Des  h4{
 	//margin-left: -19px;
@@ -422,16 +475,9 @@ border: none;
 .Fully  h4{
 	//margin-left: 20px;
 }
-.fa-tablet{
-	//margin-left: 20px;
-	width:73px;
-	background: url(../images/cir.png) no-repeat;
-	padding: 26px;
-	font-size: 24px;
-	color: #fff;
-	font-family: FontAwesome;
-	text-align: center;
-}
+
+
+
 /**/
 .wwa{
 	margin-top: 8px;
@@ -1285,8 +1331,8 @@ textarea {
 	font-weight: 700;
 }
 .forma .cBtn .send{
-	box-shadow: 0px 2px 0px 0px #179abf;
-	background:#1fcdff ;
+	box-shadow: 0px 0px 0px 0px #179abf;
+	background:#F9C80E ;
 }
 .forma .cBtn .send:hover{
 	background:#2f2f2f;
